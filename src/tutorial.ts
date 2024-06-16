@@ -91,3 +91,9 @@ let eraser = { title: 'apsara' }
 
 // Optional Cost
 const items: { title: string; price?: number }[] = [book, pen, eraser]
+
+// readonly property
+const person: { name: string; age: number } = {
+  name: 'Imran Rafiq Rather',
+  age: 32
+}
