@@ -24,7 +24,6 @@ amount += 10
 // amount = 'reality' ; /** Type String is not assignable to type number */
 
 let isAwesome: boolean = true
-console.log(isAwesome)
 isAwesome = false
 
 // isAwesome = 'shakeAndBake'
@@ -37,7 +36,7 @@ let evenNumber: number = 2
 evenNumber += 4
 
 let isRaining: boolean = true
-isRaining ? console.log('Raining') : console.log('Not Raining')
+// isRaining ? console.log('Raining') : console.log('Not Raining')
 
 /** --- We are assigning a value of different type & TS starts to complain about it --- */
 
@@ -48,8 +47,6 @@ isRaining ? console.log('Raining') : console.log('Not Raining')
 /** Type Inference in action */
 let interviewPreparation = 'Going good'
 // interviewPreparation = true
-
-console.log(interviewPreparation, color, evenNumber, isRaining)
 
 // B) Union Types | Multiple Types for a variable
 let tax: number | string
