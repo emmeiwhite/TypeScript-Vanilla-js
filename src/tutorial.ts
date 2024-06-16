@@ -50,3 +50,15 @@ let interviewPreparation = 'Going good'
 // interviewPreparation = true
 
 console.log(interviewPreparation, color, evenNumber, isRaining)
+
+// B) Union Types | Multiple Types for a variable
+let tax: number | string
+tax = 10
+tax = '$10'
+
+// C) literal value type (only selected few values possible)
+let requestStatus: 'pending' | 'success' | 'error' = 'pending'
+
+requestStatus = 'success'
+requestStatus = 'error'
+// requestStatus = 'random'
