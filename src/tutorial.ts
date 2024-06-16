@@ -41,12 +41,12 @@ isRaining ? console.log('Raining') : console.log('Not Raining')
 
 /** --- We are assigning a value of different type & TS starts to complain about it --- */
 
-color = 34
-evenNumber = 'Four'
-isRaining = 1
+// color = 34
+// evenNumber = 'Four'
+// isRaining = 1
 
 /** Type Inference in action */
 let interviewPreparation = 'Going good'
-interviewPreparation = true
+// interviewPreparation = true
 
 console.log(interviewPreparation, color, evenNumber, isRaining)
