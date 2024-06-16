@@ -64,3 +64,16 @@ requestStatus = 'error'
 let notSure: any = 4
 notSure = 'When to start work'
 notSure = false
+
+// E) Arrays and Objects
+
+const prices: number[] = [12, 34, 45]
+// prices.push('34')
+const fruits: string[] = ['apple', 'orange', 'papaya']
+fruits.push('pear')
+// fruits.push(23)
+
+// Type Inference for (string | number)[]
+const randomArray = ['peter', 23, 'rouf', 'shall rise']
+
+const fruitsPrice: (string | number)[] = ['orange', 60, 'apple', 100]
