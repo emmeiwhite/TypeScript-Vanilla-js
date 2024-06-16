@@ -62,3 +62,8 @@ let requestStatus: 'pending' | 'success' | 'error' = 'pending'
 requestStatus = 'success'
 requestStatus = 'error'
 // requestStatus = 'random'
+
+// D) any type
+let notSure: any = 4
+notSure = 'When to start work'
+notSure = false
