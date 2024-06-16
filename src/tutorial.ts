@@ -77,3 +77,17 @@ fruits.push('pear')
 const randomArray = ['peter', 23, 'rouf', 'shall rise']
 
 const fruitsPrice: (string | number)[] = ['orange', 60, 'apple', 100]
+
+/** --- Object --- */
+const car: { brand: string; year: number } = {
+  brand: 'toyota',
+  year: 2022
+}
+
+// 3 objects of same format to be added to the array
+let book = { title: 'rediscover yourself', price: 120 }
+let pen = { title: 'writo-meter', price: 90 }
+let eraser = { title: 'apsara' }
+
+// Optional Cost
+const items: { title: string; price?: number }[] = [book, pen, eraser]

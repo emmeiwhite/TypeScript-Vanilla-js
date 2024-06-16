@@ -20,3 +20,12 @@ discount = 20
 let orderStatus: 'processing' | 'shipped' | 'delivered' = 'processing'
 orderStatus = 'delivered'
 // orderStatus = 'reached'
+
+// Challenge: Arrays
+const temperatures: number[] = [23, 45, 65]
+// temperatures.push('40')
+
+const colors: string[] = ['red', 'green', 'blue']
+// colors.push(98)
+
+const randomArray2: (number | string)[] = ['yes', 12]
